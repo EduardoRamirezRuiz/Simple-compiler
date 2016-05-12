@@ -1,0 +1,15 @@
+inicio {
+ent x ;
+ent y ;
+ma cad ;
+cad me ;
+x = 9 ;
+y = 10 ;
+me ="menor"  ;
+ma ="mayor"  ;
+si ( x > y )
+imprime ( ma ) ;
+}
+sino (
+imprime ( me ) ;
+}

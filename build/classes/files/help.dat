@@ -1,0 +1,33 @@
+Instrucciones:
+Puede cargar un archivo de código fuente 
+desde el menú Archivo o crear un código
+desde el editor.
+Presione guardar y posteriormente puede
+realizar los análisis y al mismo tiempo
+desbloquear el siguiente análisis si todo
+resulta correcto.
+
+Consejos:
+Si desea información de un lexema (identificador
+o palabra reservada) puede seleccionarlo 
+y presionar click derecho, al hacer esto 
+se abrirá un cuadro de dialogo mostrando 
+la información más relevante.
+
+Atajos:
+Ctrl+O 	Abrir archivo
+Ctrl+T	Ver tabla de símbolos
+Ctrl+L	Ver archivo de la definición del lenguaje
+Ctrl+G	Ver archivo de gramática
+Ctrl+E	Ver archivo de errores
+Ctrl+A	Ver archivo de autómatas léxicos
+Ctrl+F	Ver archivo de autómatas sintácticos
+Ctrl+D	Ver archivo de mapa de símbolos
+Ctrl+V	Ver archivo de versiones
+Ctrl+B	Ver archivo de bitacora de errores
+Ctrl+C	Ver archivo de diagramas de casos de uso y clases
+Ctrl+X	Ver archivo de casos de uso léxicos
+Ctrl+Y	Ver archivo de casos de uso sintácticos
+Ctrl+Z	Ver archivo de casos de uso semánticos
+Ctrl+H	Ver ayuda
+Ctrl+J	Ver acerda de...

@@ -1,0 +1,45 @@
+Sintáctico 3: Mostrara el resultado de multiplicación de tres números, 
+y solo mostrara “superior a cero” y posteriormente el resultado si este 
+es positivo, sino únicamente mostrara “resultado negativo” y el resultado.
+Casos de uso aplicables:
+
+Caso uso 9. Uso de sino sin antes un si
+	Error 225
+	Solución: poner la función si antes del sino
+        	si ( res > 0 ) {
+		imprime ( "resultado:" . res ) ;
+		}
+		sino {
+		imprime ( "resultado negativo" ) ;
+		}
+ 
+Caso uso 11. Asignación de variables a valores, no se puede hacer más 
+de una operación al mismo tiempo, solo puede tener máximo 2 operadores 
+y un operando.
+	Error 150 
+	Solución: poner operaciones con máximo dos operadores y un operando.
+		res = x * y ;
+		res = res * z ;
+Caso uso 12. No se declaró el inicio del método
+	Error 230
+        Solución: colocar el inicio al iniciar el método
+        	inicio{}
+Caso uso 13. Error en el método inicio
+	Error 240
+        Solución:  Colocar las llaves correctamente para toda que abre 
+	cierra junto con la eqtiqueta inicio
+        	inicio{}
+ 
+Caso uso 14. En la función imprime, no se concatena correctamente
+ 	Error 160
+	Solución: se concatena con el símbolo “.”
+        	imprime ( "resultado negativo" . res) ;
+ 
+ 
+Caso uso 15. Al asignar el valor de una variable, el valor positivo 
+puede asignarse usando paréntesis pero nunca colocando el signo “+”
+ 	Error 150
+        Solución: Colocar la asignación sin el signo +
+		x =( 3) ;  
+	o bien
+		x =3 ; 

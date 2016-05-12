@@ -1,0 +1,10 @@
+inicio { 
+ent y ; 
+cad cadena ; 
+x = 0 ; 
+y =  "Automatas"  ; 
+mientras ( x < y ) { 
+imprime ( cadena ) ; 
+x = cadena + 1 ; 
+} 
+}

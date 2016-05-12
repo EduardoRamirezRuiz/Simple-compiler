@@ -1,0 +1,30 @@
+inicio { 
+ent a ; 
+ent b ; 
+cad cadena ; 
+a = 0 ; 
+b = 5 ; 
+cadena = "Igual"  ; 
+mientras ( a <= b ) { 
+si ( a == b ) { 
+imprime ( cadena ) ; 
+} 
+a = a + 1 ; 
+} 
+} 
+
+inicio { 
+ent b ; 
+ent c ; 
+cad cadena ; 
+a = 0 ; 
+b = 5 ; 
+cadena = 1  ; 
+ent a ; 
+mientras ( a <= cadena ) { 
+si ( a == b ) { 
+imprime ( cadena ) ; 
+} 
+a = a + 1 ; 
+} 
+} 

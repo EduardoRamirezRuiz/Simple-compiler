@@ -1,0 +1,16 @@
+inicio { 
+ent x ; 
+x = 5 % 1 ; 
+cad abc ; 
+abc = "hola  ; 
+ent 6var ; 
+cad hola ; 
+hola 
+= "cadena"  ; 
+imprime ( hola ) ; 
+imprime ( "cadena 2"  ) ; 
+ent Y ; 
+cad Suma ; 
+ent !variable ; 
+y = ( -1 ) ;
+}

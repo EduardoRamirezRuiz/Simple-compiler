@@ -1,0 +1,25 @@
+Semántico 1. El propósito del siguiente programa es imprimir 5 veces la palabra “Autómatas”.
+Casos de uso aplicables en programa 1
+
+Caso uso 1.  Realizar operaciones con una variable con valor nulo.
+	Error: 320
+	Solución: declarar cadena
+		 cadena = "Autómatas"  ; 
+Caso uso 2. Imprimir variable que tiene valor nulo.
+	Error: 320
+	Al momento de resolver el caso de uso 1, este caso de uso se resuelve.
+
+
+Caso uso 4. Realizar operación con variables de diferente tipo.
+	Error: 340
+	Solución: al sumarle a x 1, se le tiene que asignar un identificador de tipo entero y no cadena como está actualmente.
+		x = x + 1 ; 
+Caso uso 5. Asignar una cadena a una variable entera.
+	Error: 300
+	Solución: Asignar a y un número entero y no una cadena
+		y = 5 ; 
+
+Caso uso 7. Hacer uso de una variable no declarada.
+	Error: 280
+	Solución: Declarar la variable x
+		ent x ; 

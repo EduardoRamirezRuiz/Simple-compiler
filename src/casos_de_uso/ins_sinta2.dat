@@ -1,0 +1,28 @@
+Sintáctico 2: realizará la comparación de dos números e imprimirá si el
+	primero es mayor o menor, según corresponda.
+Casos de uso aplicables.
+
+Caso uso 6. Posible llave abierta
+	Error 190
+	Solución: Buscar que llave faltaba cerrar y cerrarla, en este 
+	caso teníamos 3 abiertas también debía haber 3 cerradas en el orden 
+	correspondiente
+		inicio { 
+		si ( x > y ) { }
+		sino {}
+		}
+Caso uso 7. En la estructura si
+	Error 200
+	Solución: seguir la estructura de la condición si correctamente, 
+	faltaba abrir una llave
+		si ( x > y ) { }
+Caso uso 8. En la estructura sino
+	Error 220
+	Solución: seguir la estructura de la condición sino correctamente, 
+	no se pueden remplazar las llaves paréntesis.
+		sino {}
+Caso uso 10.Al asignar el valor a una variable, no sigue la estructura 
+	ni orden correcto.
+	Error 150
+	Solución: declarar de forma correcta
+		cad ma ; 

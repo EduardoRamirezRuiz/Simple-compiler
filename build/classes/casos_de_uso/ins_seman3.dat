@@ -1,0 +1,35 @@
+Semántico 3. El propósito del siguiente programa es realizar la operación 
+de división e imprimir el resultado si el resultado es mayor que cero.
+Casos de uso aplicables a programa 3.
+
+Caso uso 9. No se puede declarar dos o más variables con el mismo nombre y 
+	que estas sean de diferente tipo.
+	Solución: Cambiar de nombre a una de las dos variables que se repiten 
+		  En este caso se puede eliminar.
+Caso uso 8. No se puede declarar dos o más variables con el mismo nombre.
+	Error: 270
+	Solución: Cambiar de nombre a una de las dos variables que se repiten.
+		ent dividendo ; 
+		ent divisor ; 
+Caso uso 10. División de un valor entero entre cero.
+	Error: 310
+	Solución:cambiar el valor de la variable que actúa como divisor a un 
+	número diferente de 0.
+		divisor = 2 ; 
+Caso uso 11. Asignar un valor numérico que exceda el límite.
+	Error: 330
+	Solución: Cambiar el valor de la variable dividendo a un número 
+	dentro del límite de enteros.
+		dividendo = 10 ;
+Caso uso 13. Ámbito de las variables.
+	Error: 370
+	Solución: Colocar todos los usos de la  variable que se declara 
+	dentro del bloque de si dentro del bloque del mismo.
+		si ( res > 0 ) { 
+			cad msj ;
+			msj = “Resultado” . res ;
+			imprime ( msj ); 
+		} 
+Caso uso 14. Concatenar un entero a una cadena
+	Demostración.
+	msj = "Resultado" . res; 

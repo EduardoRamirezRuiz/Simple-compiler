@@ -1,0 +1,14 @@
+inicio { 
+ent dividendo ;
+ent dividendo ;
+cad dividendo ; 
+ent res ; 
+dividendo = 32768 ; 
+divisor = 0 ; 
+res = dividendo / divisor ; 
+si ( res > 0 ) { 
+cad msj ;
+msj = "Resultado" . res ; 
+} 
+imprime ( msj ); 
+}

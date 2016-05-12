@@ -1,0 +1,15 @@
+1.- Error: Quitar el caracter de % de la línea 3.
+2.- Error: Cerrar las comillas de la línea 5.
+3.- Error: Corregir nombre de variable de línea 6.
+4.- Demostración: de asignación con saltos de línea.
+5.- Demostración: imprime funciona con espacios o saltos.
+6.- Tabla de símbolos -> Tipo.
+7.- Tabla de símbolos -> Valor.
+8.- Tabla de símbolos -> Dirección.
+9.- Tabla de símbolos -> iD numérico.
+10. Tabla de símbolos -> Generación iD para cadenas, línea 11.
+11. Error: No se admiten mayúsculas, líneas 13 y 14.
+12. Tabla de símbolos -> conteo de línea.
+13. Identificador que inicia con caracter extraño.
+14. Tabla de símbolos -> se genera a pesar de haber errores.
+15. Demostración: número negativo.

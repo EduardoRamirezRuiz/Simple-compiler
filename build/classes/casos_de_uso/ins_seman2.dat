@@ -1,0 +1,24 @@
+Semántico 2. Programa 2. El propósito del siguiente programa es comparar 
+mientras una variable sea menor a otra se suma esta variable (menor) y 
+posteriormente comparar las dos variables numéricas, cuando sean iguales 
+se imprime una variable que dice “Igual”;
+Casos de uso aplicables en programa 2
+
+Caso uso 3. Comparar dos variables de diferente tipo.
+	Error: 350
+	Solución: cambiar la variable que se compara con a, a una entera. Sustituir variable cadena por variable b.
+		( a <= b )
+Caso uso 6. Asignar un entero a una variable cadena.
+	Error: 300
+	Solución: Asignar una cadena a la variable de tipo cadena, en lugar de asignarle un valor numérico.
+		cadena = "Igual"  ; 
+
+Caso uso 12. Declarar una variable y no utilizarla en ninguna parte del código.
+	Error: 290
+	Solución: Eliminar declaración de la variable c
+
+Caso uso 15. Asignar valor a una variable y posteriormente declararla.
+	Error: 380
+	Solución: Declarar primero la variable a, antes de asignarle un valor.
+	ent a ; 
+	a = 0 ; 

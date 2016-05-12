@@ -1,0 +1,12 @@
+ent x ;
+ent y ;
+ent z ;
+ent res ;
+x = (+3) ;
+y = 2 ;
+z = 5 ;
+res = x * y * z ;
+sino {
+imprime ( "resultado negativo" + res) ;
+}
+}

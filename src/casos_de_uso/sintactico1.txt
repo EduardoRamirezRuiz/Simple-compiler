@@ -1,0 +1,15 @@
+inicio { 
+ent x=5 ; 
+ent y ; 
+ent res; 
+y = -7 ;
+mientras x > y ) {
+res 
+= 5 / 7 ; 
+y = y + 1 ; 
+x = x - 1 ; 
+si ( res > ) { 
+imprime ( res ; 
+} 
+} 
+}

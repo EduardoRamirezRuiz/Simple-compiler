@@ -1,0 +1,29 @@
+Sintáctico 1:Este programa realizará divisiones siempre y cuando x sea
+mayor a y,  y solo imprimirá las que tienen resultado positivo.
+
+Casos de uso aplicables en programa 1.
+
+Caso uso 1.  Al crear una variable
+	Error 140 
+	Solución: declarar conforme a la estructura 
+		ent x ; 
+		x = 5 ; 
+Caso uso 2.  Al asignar el valor de una variable. 
+	Error 150 
+	Solución: Asignar  el valor negativo a una variable mediante 
+	el uso de paréntesis. 
+		y = ( -7 ) ; 
+Caso uso 3.  En la función imprime
+	Error 160 
+	Solución: Colocar paréntesis faltante 
+	imprime ( res ) ;
+Caso uso 4. Condición con error
+	Error 170   
+	Solución: asegurarse de que se conforma por los dos valores 
+		si ( res > 0 ) { 
+		}
+Caso uso 5.  En la función mientras no es valida
+	Error 180 
+	Solución: Colocar el paréntesis faltante 
+		mientras ( x > y ) { 
+		}
